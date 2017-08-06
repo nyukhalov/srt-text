@@ -13,7 +13,7 @@ sudo python setup.py install
 
 ### Using pip
 ```bash
-pip install git+https://github.com/nyukhalov/srt-text.git
+sudo pip install git+https://github.com/nyukhalov/srt-text.git
 ```
 
 ## Usage

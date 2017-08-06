@@ -13,16 +13,12 @@ sudo python setup.py install
 
 ### Using pip
 ```bash
-pip install git+git@github.com:nyukhalov/srt-text.git
-```
-or
-```bash
 pip install git+https://github.com/nyukhalov/srt-text.git
 ```
 
 ## Usage
 ```bash
-srttext <PATH_TO_SRT_FILE>
+srt-text <PATH_TO_SRT_FILE>
 ```
 
 ## Example

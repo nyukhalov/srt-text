@@ -9,7 +9,7 @@ setup(
     packages=['srttext'],
     entry_points={
         'console_scripts': [
-            'srttext=srttext.app:main'
+            'srt-text=srttext.app:main'
         ]
     }
 )

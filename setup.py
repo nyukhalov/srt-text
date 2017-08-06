@@ -1,7 +1,15 @@
 from setuptools import setup
 
 setup(
-    name='SRT Text EXTractor',
+    name='srt-text',
     version='1.0.1',
-    scripts=['srt-text']
+    url='https://github.com/nyukhalov/srt-text',
+    author='Roman Niukhalov',
+    license='MIT',
+    packages=['srttext'],
+    entry_points={
+        'console_scripts': [
+            'srttext=srttext.app:main'
+        ]
+    }
 )

@@ -1,18 +1,28 @@
 # SRT Text EXTractor
 A tool for extracting text from SRT subtitles
 
-## Requirenments
+## Requirements
 - Python2
-- pip
 
 ## Installation
+### Manual
 ```bash
-fixme
+git clone https://github.com/nyukhalov/srt-text.git
+sudo python setup.py install
+```
+
+### Using pip
+```bash
+pip install git+git@github.com:nyukhalov/srt-text.git
+```
+or
+```bash
+pip install git+https://github.com/nyukhalov/srt-text.git
 ```
 
 ## Usage
 ```bash
-srt-text <PATH_TO_SRT_FILE>
+srttext <PATH_TO_SRT_FILE>
 ```
 
 ## Example
@@ -28,7 +38,7 @@ our final approach into Coruscant.
 Very good, Lieutenant.
 ```
 
-result will be
+outcome will be
 ```
 Senator, we're making our final approach into Coruscant. Very good, Lieutenant.
 ```
